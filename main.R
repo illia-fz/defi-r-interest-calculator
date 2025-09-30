@@ -1,6 +1,7 @@
 # Compound interest calculator in R
 compound <- function(principal, rate, periods) {
   principal * (1 + rate)^periods
+# Note: This script calculates compound interest.
 }
 
 # Example usage:
